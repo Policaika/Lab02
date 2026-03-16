@@ -1,10 +1,10 @@
-#include <iostream> // Библиотека ввода/выода
-#include <string> // Библиотека для строкового типа данных
+#include <iostream> // Input/Output library
+#include <string> // String data type library
 int main()
 {
-std::string name; // Переменная для имя пользователя
-std::cout << "Введите имя пользователя: "; // Вывод в консоль запроса на ввод имени пользователя
-std::getline(std::cin,name); // Считываение данных из буфера
-std::cout << "Hello world from @" << name << std::endl; // Вывод строки Hello world с именем пользователя на экран
-return 0; // Очищаем регистры/стек
+std::string name; // Variable for user`s name
+std::cout << "Введите имя пользователя: "; // Proposal to enter the name
+std::getline(std::cin,name); // Reading data from the buffer
+std::cout << "Hello world from @" << name << std::endl; // Print Hello world with user`s name
+return 0; // Cleaning registers/stack
 }
